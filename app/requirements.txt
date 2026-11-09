@@ -1,0 +1,8 @@
+# Dependensi aplikasi (dipakai Streamlit Community Cloud).
+# Aplikasi hanya menjalankan model TFLite, sehingga cukup LiteRT tanpa TensorFlow penuh.
+streamlit==1.66.1
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+joblib==1.6.0
+ai-edge-litert==2.3.0

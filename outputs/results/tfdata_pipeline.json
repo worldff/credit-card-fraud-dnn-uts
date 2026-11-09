@@ -1,0 +1,17 @@
+[
+  {
+    "name": "train",
+    "element_spec": "(TensorSpec(shape=(None, 31), dtype=tf.float32, name=None), TensorSpec(shape=(None,), dtype=tf.float32, name=None))",
+    "num_batches": 97
+  },
+  {
+    "name": "validation",
+    "element_spec": "(TensorSpec(shape=(None, 31), dtype=tf.float32, name=None), TensorSpec(shape=(None,), dtype=tf.float32, name=None))",
+    "num_batches": 21
+  },
+  {
+    "name": "test",
+    "element_spec": "(TensorSpec(shape=(None, 31), dtype=tf.float32, name=None), TensorSpec(shape=(None,), dtype=tf.float32, name=None))",
+    "num_batches": 21
+  }
+]

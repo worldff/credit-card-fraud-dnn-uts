@@ -1,0 +1,19 @@
+{
+  "selection_table": {
+    "S1_baseline_bce": {
+      "val_f1_opt_mean": 0.8499053957069225,
+      "val_pr_auc_mean": 0.8460147847959919
+    },
+    "S2_weighted_bce": {
+      "val_f1_opt_mean": 0.7704032886303177,
+      "val_pr_auc_mean": 0.6813888367117445
+    },
+    "S3_focal": {
+      "val_f1_opt_mean": 0.8345261936811234,
+      "val_pr_auc_mean": 0.8343855506183983
+    }
+  },
+  "final_scenario": "S1_baseline_bce",
+  "seed": 42,
+  "threshold": 0.1276082843542099
+}

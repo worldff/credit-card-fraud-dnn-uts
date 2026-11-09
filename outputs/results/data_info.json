@@ -1,0 +1,13 @@
+{
+  "rows_raw": 284807,
+  "missing_values": 0,
+  "duplicates": 1081,
+  "duplicates_fraud": 19,
+  "rows_clean": 283726,
+  "n_train": 198608,
+  "fraud_train": 331,
+  "n_val": 42559,
+  "fraud_val": 71,
+  "n_test": 42559,
+  "fraud_test": 71
+}

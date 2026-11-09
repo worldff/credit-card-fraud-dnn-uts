@@ -1,0 +1,46 @@
+{
+  "validation": {
+    "n": 42559,
+    "flagged": 8,
+    "flagged_pct": 0.018797434150238494,
+    "flagged_fraud": 1,
+    "fraud": 71
+  },
+  "testing": {
+    "n": 42559,
+    "flagged": 6,
+    "flagged_pct": 0.01409807561267887,
+    "flagged_fraud": 1,
+    "fraud": 71
+  },
+  "contoh_buatan": [
+    {
+      "input": "Amount 50 EUR, V1\u2013V28 = 0",
+      "cek_input": "OK",
+      "keterangan": ""
+    },
+    {
+      "input": "Amount 60.000 EUR",
+      "cek_input": "DI LUAR DOMAIN",
+      "keterangan": "di luar rentang data latih: Amount"
+    },
+    {
+      "input": "V14 = -40",
+      "cek_input": "DI LUAR DOMAIN",
+      "keterangan": "di luar rentang data latih: V14"
+    },
+    {
+      "input": "Amount -5 EUR",
+      "cek_input": "TIDAK VALID",
+      "keterangan": "Amount/Time tidak boleh negatif"
+    }
+  ],
+  "domain_amount": [
+    0.0,
+    19656.5390625
+  ],
+  "domain_V14": [
+    -19.214324951171875,
+    10.526765823364258
+  ]
+}
