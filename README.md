@@ -38,8 +38,8 @@ sisi sistem agar model dapat dipakai dengan aman di aplikasi:
 — 284.807 transaksi, 31 kolom (`Time`, `V1`–`V28` hasil PCA, `Amount`, `Class`).
 
 Dataset yang dipakai di notebook dan laporan **disertakan di repositori ini** sebagai file asli
-Kaggle (`archive.zip`) yang dipecah menjadi tiga bagian agar setiap file < 25 MB:
-`data/creditcard_kaggle.zip.part1`, `part2`, `part3`. Gabungkan dan ekstrak dengan:
+Kaggle (`archive.zip`) yang dipecah menjadi delapan bagian (masing-masing ±9 MB) agar dapat diunggah ke GitHub:
+`data/creditcard_kaggle.zip.part1` sampai `part8`. Gabungkan dan ekstrak dengan:
 
 ```bash
 python src/get_dataset.py
@@ -79,7 +79,7 @@ Kelompok **Blueprints** — Kelas **IF B Sore**
 ├── app/app.py              # Aplikasi Streamlit (inferensi, model TFLite)
 ├── app/requirements.txt    # dependensi aplikasi untuk deploy (LiteRT, tanpa TensorFlow)
 ├── notebooks/              # notebook Colab yang menjalankan seluruh pipeline
-├── data/creditcard_kaggle.zip.part1–3  # dataset asli Kaggle (dipecah < 25 MB)
+├── data/creditcard_kaggle.zip.part1–8  # dataset asli Kaggle (dipecah ±9 MB)
 ├── data/contoh_transaksi_uji.csv  # 20 transaksi data uji untuk demo aplikasi
 ├── outputs/
 │   ├── figures/            # grafik EDA & evaluasi
@@ -113,7 +113,7 @@ Kelompok **Blueprints** — Kelas **IF B Sore**
 2. *Runtime → Run all*. Notebook mengambil kode dengan salah satu cara: clone dari GitHub
    (isi `REPO_URL` di sel pertama), file `Source_Code_Credit_Card_Fraud_DNN.zip` di Google Drive,
    atau unggah zip tersebut saat diminta.
-3. Dataset otomatis disiapkan dari `data/creditcard_kaggle.zip.part1–3` (salinan asli Kaggle).
+3. Dataset otomatis disiapkan dari `data/creditcard_kaggle.zip.part1–8` (salinan asli Kaggle).
    Bila bagian tersebut tidak ada, notebook mencarinya di Google Drive, mencoba mengunduh dari
    Kaggle (`kagglehub`), atau meminta Anda mengunggah `creditcard.csv`.
 4. Tidak perlu `pip install`: TensorFlow, scikit-learn, pandas, dan matplotlib sudah ada di Colab.
