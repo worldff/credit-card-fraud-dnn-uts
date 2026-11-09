@@ -1,10 +1,10 @@
 """Menyiapkan data/creditcard.csv dari salinan dataset Kaggle yang disimpan di repositori.
 
 File asli Kaggle (archive.zip dari https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud,
-berisi creditcard.csv 150.828.752 byte) dipecah menjadi beberapa bagian < 25 MB agar dapat
+berisi creditcard.csv 150.828.752 byte) dipecah menjadi delapan bagian (±9 MB) agar dapat
 diunggah ke GitHub melalui browser:
 
-    data/creditcard_kaggle.zip.part1, .part2, .part3
+    data/creditcard_kaggle.zip.part1 ... .part8
 
 Skrip ini menggabungkan bagian-bagian tersebut, mengekstrak creditcard.csv, lalu memeriksa
 checksum MD5 agar dipastikan sama persis dengan file asli Kaggle.
