@@ -2,7 +2,7 @@
   "keras": {
     "file": "fraud_dnn_final.keras",
     "size_kb": 71.8857421875,
-    "latency_ms": 5.718908363332957,
+    "latency_ms": 6.123655953333204,
     "test": {
       "threshold": 0.1276082843542099,
       "accuracy": 0.9993185930120538,
@@ -22,7 +22,7 @@
   "tflite_fp32": {
     "file": "fraud_dnn_fp32.tflite",
     "size_kb": 21.01953125,
-    "latency_ms": 0.0022481349999452505,
+    "latency_ms": 0.0015428159999828495,
     "test": {
       "threshold": 0.1276082843542099,
       "accuracy": 0.9993185930120538,
@@ -42,7 +42,7 @@
   "tflite_int8dyn": {
     "file": "fraud_dnn_int8dyn.tflite",
     "size_kb": 10.4375,
-    "latency_ms": 0.003142450999916946,
+    "latency_ms": 0.002285481000001255,
     "test": {
       "threshold": 0.1276082843542099,
       "accuracy": 0.9993420898047417,
